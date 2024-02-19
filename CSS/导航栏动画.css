@@ -1,0 +1,16 @@
+@keyframes opacity {
+    0% {
+        filter: blur(10px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}
+
+body {
+    background-color: #F5E1FF;
+    width: 100vw;
+    animation: opacity 1s linear forwards;
+    /* 将动画方向设为 forwards，使其在结束时保持最后一个关键帧的状态 */
+}

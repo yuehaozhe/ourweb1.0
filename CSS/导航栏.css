@@ -1,0 +1,124 @@
+/* 导航栏样式 */
+.image {
+    display: inline;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #FFFFCC;
+    justify-content: space-between;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    pointer-events: auto;
+    z-index: 999;
+}
+
+.navbar .nav {
+    width: 90vw;
+    max-width: 1200px;
+    /* 固定最大宽度 */
+    margin: 0 auto;
+    font-size: clamp(14px, 4vw, 20px);
+    /* 固定字体大小 */
+}
+
+.navbar .nav .first-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.first-menu li {
+    text-align: center;
+    line-height: 10vh;
+    width: 100%;
+}
+
+.first-menu li ul {
+    width: 100%;
+    transform: scaleY(0);
+    transform-origin: 50% 0;
+    transition: all, 0.4s;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background-color: #F5E1FF;
+}
+
+.first-menu li ul a {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    padding: 0px 5px;
+}
+
+.first-menu li ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.first-menu li:hover ul {
+    transform: scaleY(1);
+}
+
+.navbar .nav ul.first-menu>li:hover {
+    background-color: #F5E1FF;
+}
+
+/* 字体初始化 */
+@font-face {
+    font-family: '阿里妈妈方圆体';
+    src: url('../iconfont/阿里妈妈方圆体/AlimamaFangYuanTiVF-Thin.woff2') format('woff2'),
+        url('../iconfont/阿里妈妈方圆体/AlimamaFangYuanTiVF-Thin.woff') format('woff'),
+        url('../iconfont/阿里妈妈方圆体/AlimamaFangYuanTiVF-Thin.ttf') format('truetype');
+}
+
+.iconfont-font {
+    font-family: "阿里妈妈方圆体" !important;
+    font-size: clamp(14px, 4vw, 20px);
+    /* 固定字体大小 */
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* logo */
+.iconfont {
+    width: 4em;
+    height: 4em;
+    vertical-align: middle;
+    /* 垂直居中 */
+    fill: currentColor;
+    overflow: hidden;
+    color: black;
+    margin-left: 3vw;
+    /* 使用 vw */
+}
+
+.logo {
+    margin-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 0.7vw;
+}
+
+/* 版心样式 */
+.time {
+    width: 90vw;
+}
+
+/* 占位符 */
+.placeholder {
+    height: 10vh;
+}
+
+.wrap {
+    position: absolute;
+    inset: 0;
+    width: fit-content;
+    margin-inline: auto;
+    transform: scale(1);
+    pointer-events: none;
+}

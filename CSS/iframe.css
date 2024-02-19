@@ -1,0 +1,15 @@
+.iframe-css {
+    height: 90vh;
+    width: 50vw;
+    margin: 0 auto;
+
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F5E1FF;
+}

@@ -1,0 +1,54 @@
+/* 时间样式 */
+.time {
+    width: 50vw;
+    /* 使用 vw 单位 */
+    margin: 10vh auto;
+    /* 使用 vw 和 vh 单位 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.time div {
+    height: 25vh;
+    /* 使用 vh 单位 */
+    width: 100%;
+    text-align: center;
+    font-size: clamp(7px, 4vw, 20px);
+    /* 使用 clamp() 函数 */
+    padding-top: 2vh;
+    /* 使用 vh 单位 */
+    padding-bottom: 2vh;
+    /* 使用 vh 单位 */
+    letter-spacing: 0.5vw;
+    /* 使用 vw 单位 */
+    margin-top: 2vh;
+    /* 使用 vh 单位 */
+    font-weight: bold;
+}
+
+.time ul {
+    height: 25vh;
+    /* 使用 vh 单位 */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time ul li {
+    height: 10vh;
+    /* 使用 vh 单位 */
+    width: calc(18.9394vw - 20px);
+    /* 使用 vw 单位 */
+    text-align: center;
+    line-height: 10vh;
+    /* 使用 vh 单位 */
+    background-color: #d2691e;
+    margin-left: 2vw;
+    /* 使用 vw 单位 */
+    margin-right: 2vw;
+    /* 使用 vw 单位 */
+    font-size: clamp(7px, 4vw, 20px);
+    /* 使用 clamp() 函数 */
+    border-radius: 20px;
+}

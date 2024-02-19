@@ -1,0 +1,54 @@
+/* 视频 */
+.row video {
+    width: 90vw;
+    height: 55.62vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    /* margin-top: 50px; */
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+/* 视频部分 */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video-font {
+    position: relative;
+    z-index: 1;
+}
+
+.video-font button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 40px;
+    letter-spacing: 20px;
+    padding-top: 80px;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.video-font button svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    transform: translateX(250%);
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}

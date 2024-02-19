@@ -1,0 +1,39 @@
+.time {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 250px;
+}
+
+.time div {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+    padding-bottom: 90px;
+    letter-spacing: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.time ul {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time ul li {
+    height: 70px;
+    width: 113.268px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #d2691e;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+}

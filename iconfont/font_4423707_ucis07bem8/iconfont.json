@@ -1,0 +1,23 @@
+{
+  "id": "4423707",
+  "name": "首页logo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7549827",
+      "name": "发布",
+      "font_class": "RectangleCopy",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "1331380",
+      "name": "cms-c",
+      "font_class": "cms-c",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
